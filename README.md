@@ -23,7 +23,7 @@ import requests
 import json
 import yaml
 
-# Load taxonomy
+# taxonomy
 with open("data/taxonomy.yaml") as f:
     taxonomy = yaml.safe_load(f)
 
